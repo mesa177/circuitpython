@@ -41,7 +41,7 @@ msgid ""
 "To exit, please reset the board without "
 msgstr ""
 "\n"
-" للخروج، الرجاء إعادة تشغيل اللوح الإلكتروني من دون\n"
+" للخروج، الرجاء إعادة تشغيل اللوح الإلكتروني من دون"
 
 #: py/obj.c
 msgid "  File \"%q\""
