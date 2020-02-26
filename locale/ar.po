@@ -151,12 +151,12 @@ msgstr "'%q' لا يدعم '%s' إن الغرض التابع ل"
 #: py/obj.c
 #, c-format
 msgid "'%s' object does not support item assignment"
-msgstr "'%s' Objekt unterstützt keine Zuordnung von Elementen"
+msgstr "لا يدعم التكلف بالمهمة '%s' إن الغرض التابع ل"
 
 #: py/obj.c
 #, c-format
 msgid "'%s' object does not support item deletion"
-msgstr "'%s' Objekt unterstützt das Löschen von Elementen nicht"
+msgstr "لا يدعم حذف المهمة '%s' إن الغرض التابع ل"
 
 #: py/runtime.c
 msgid "'%s' object has no attribute '%q'"
@@ -330,14 +330,15 @@ msgstr ""
 
 #: main.c
 msgid "Auto-reload is off.\n"
-msgstr "إن إعادة التحميل التلقائي معطل\n"
+msgstr ".إن إعادة التحميل التلقائي معطل\n"
 
 #: main.c
 msgid ""
 "Auto-reload is on. Simply save files over USB to run them or enter REPL to "
 "disable.\n"
-msgstr " USB إن إعادة التحميل التلقائي قيد التشغيل. ما عليك سوى حفظ الملفات عبر\n"
-".لتعطيلها REPL لتشغيلها أو الدخول إلى"
+msgstr " USB إن إعادة التحميل التلقائي قيد التشغيل. ما عليك سوى حفظ الملفات عبر"
+".لتعطيلها REPL لتشغيلها أو الدخول إلى\n"
+
 #: shared-module/displayio/Display.c
 msgid "Below minimum frame rate"
 msgstr "Unterhalb der minimalen Frame Rate"
