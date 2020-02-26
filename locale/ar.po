@@ -138,7 +138,8 @@ msgstr "%d..%d ليس في النطاق المحدد ب '%s' التابع ل %d 
 #: py/emitinlinethumb.c
 #, c-format
 msgid "'%s' integer 0x%x does not fit in mask 0x%x"
-msgstr "0x%x لا يمكن ادخاله في نطاق الغطاء المحدد ب '%s' التابع ل 0x%x إن العدد الصحيح" 
+msgstr ""
+#"0x%x لا يمكن ادخاله في نطاق الغطاء المحدد ب '%s' التابع ل 0x%x إن العدد الصحيح" 
 #Arabic translation stuck, 0x%x does not retain its form in RTL sentence
 # like so: 0x%x لا يمكن ادخاله في نطاق الغطاء المحدد ب '%s' التابع ل x%xإن العدد الصحيح 0
 # or as shown above
@@ -329,16 +330,14 @@ msgstr ""
 
 #: main.c
 msgid "Auto-reload is off.\n"
-msgstr "Automatisches Neuladen ist deaktiviert.\n"
+msgstr "إن إعادة التحميل التلقائي معطل\n"
 
 #: main.c
 msgid ""
 "Auto-reload is on. Simply save files over USB to run them or enter REPL to "
 "disable.\n"
-msgstr ""
-"Automatisches Neuladen ist aktiv. Speichere Dateien über USB um sie "
-"auszuführen oder verbinde dich mit der REPL zum Deaktivieren.\n"
-
+msgstr " USB إن إعادة التحميل التلقائي قيد التشغيل. ما عليك سوى حفظ الملفات عبر\n"
+".لتعطيلها REPL لتشغيلها أو الدخول إلى"
 #: shared-module/displayio/Display.c
 msgid "Below minimum frame rate"
 msgstr "Unterhalb der minimalen Frame Rate"
