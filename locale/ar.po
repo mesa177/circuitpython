@@ -160,124 +160,124 @@ msgstr "لا يدعم حذف المهمة '%s' إن الغرض التابع ل"
 
 #: py/runtime.c
 msgid "'%s' object has no attribute '%q'"
-msgstr "'%s' Objekt hat kein Attribut '%q'"
+msgstr "'%q' لا يوجد لديه سمة '%s' إن الغرض التابع ل"
 
 #: py/runtime.c
 #, c-format
 msgid "'%s' object is not an iterator"
-msgstr "'%s' Objekt ist kein Iterator"
+msgstr "لا يتمتع بصفة مكرر '%s' إن الغرض التابع ل"
 
 #: py/objtype.c py/runtime.c
 #, c-format
 msgid "'%s' object is not callable"
-msgstr "'%s' object ist nicht callable"
+msgstr "لا يمكن استدعاؤه '%s' إن الغرض التابع ل"
 
 #: py/runtime.c
 #, c-format
 msgid "'%s' object is not iterable"
-msgstr "'%s' Objekt nicht iterierbar"
+msgstr "لا يمكن تكراره '%s' إن الغرض التابع ل"
 
 #: py/obj.c
 #, c-format
 msgid "'%s' object is not subscriptable"
-msgstr "'%s' Objekt hat keine '__getitem__'-Methode (not subscriptable)"
+msgstr "غير قابل للنص '%s' إن الغرض التابع ل"
 
 #: py/objstr.c
 msgid "'=' alignment not allowed in string format specifier"
-msgstr "'='-Ausrichtung ist im String-Formatbezeichner nicht zulässig"
+msgstr "المحاذاة غير مسموح بها في تحديد نوع السلسلة '='"
 
 #: shared-module/struct/__init__.c
 msgid "'S' and 'O' are not supported format types"
-msgstr "'S' und 'O' sind keine unterstützten Formattypen"
+msgstr "غير معتمدة كأنواع للتنسيق 'O' و 'S'"
 
 #: py/compile.c
 msgid "'align' requires 1 argument"
-msgstr "'align' erfordert genau ein Argument"
+msgstr "يحتاج إلى معطى واحد 'align'"
 
 #: py/compile.c
 msgid "'await' outside function"
-msgstr "'await' außerhalb einer Funktion"
+msgstr "دالة خارجية 'await'"
 
 #: py/compile.c
 msgid "'break' outside loop"
-msgstr "'break' außerhalb einer Schleife"
+msgstr "خارج حلقة التكرار 'break'"
 
 #: py/compile.c
 msgid "'continue' outside loop"
-msgstr "'continue' außerhalb einer Schleife"
+msgstr "خارج حلقة التكرار 'continue'"
 
 #: py/compile.c
 msgid "'data' requires at least 2 arguments"
-msgstr "'data' erfordert mindestens zwei Argumente"
+msgstr "تحتاج على الأقل 2 معطيات 'data'"
 
 #: py/compile.c
 msgid "'data' requires integer arguments"
-msgstr "'data' erfordert Integer-Argumente"
+msgstr "يحتاج لمعطيات ذات نوع أعداد صحيحة 'data'"
 
 #: py/compile.c
 msgid "'label' requires 1 argument"
-msgstr "'label' erfordert genau ein Argument"
+msgstr "يحتاج إلى معطى واحد 'label'"
 
 #: py/compile.c
 msgid "'return' outside function"
-msgstr "'return' außerhalb einer Funktion"
+msgstr "دالة خارجية 'return'"
 
 #: py/compile.c
 msgid "'yield' outside function"
-msgstr "'yield' außerhalb einer Funktion"
+msgstr "دالة خارجية 'yield'"
 
 #: py/compile.c
 msgid "*x must be assignment target"
-msgstr "*x muss Zuordnungsziel sein"
+msgstr "يجب أن يكون هدف المهمة *x"
 
 #: py/obj.c
 msgid ", in %q\n"
-msgstr ""
+msgstr "،%q في\n"
 
 #: py/objcomplex.c
 msgid "0.0 to a complex power"
-msgstr ""
+msgstr "إلى عدد مركب 0.0"
 
 #: py/modbuiltins.c
 msgid "3-arg pow() not supported"
-msgstr "3-arg pow() wird nicht unterstützt"
+msgstr "3-arg pow() غير مدعوم"
 
 #: ports/atmel-samd/common-hal/rotaryio/IncrementalEncoder.c
 msgid "A hardware interrupt channel is already in use"
-msgstr "Ein Hardware Interrupt Kanal wird schon benutzt"
+msgstr "هنالك قناة لمقاطعة عمل جهاز الهردور قيد الاستخدام"
 
 #: shared-bindings/_bleio/Address.c
 #, c-format
 msgid "Address must be %d bytes long"
-msgstr "Die Adresse muss %d Bytes lang sein"
+msgstr "%d Bytes يجب أن يكون طول العنوان"
 
 #: shared-bindings/_bleio/Address.c
 msgid "Address type out of range"
-msgstr "Adresstyp außerhalb des zulässigen Bereichs"
+msgstr "نوع العنوان خارج النطاق المعرف"
 
 #: ports/nrf/common-hal/busio/I2C.c
 msgid "All I2C peripherals are in use"
-msgstr "Alle I2C-Peripheriegeräte sind in Benutzung"
+msgstr "قيد الاستخدام I2C إن جميع الأجهزة الطرفية ذات تعرفة"
 
 #: ports/nrf/common-hal/busio/SPI.c
 msgid "All SPI peripherals are in use"
-msgstr "Alle SPI-Peripheriegeräte sind in Benutzung"
+msgstr "قيد الاستخدام SPI إن جميع الأجهزة الطرفية ذات تعرفة"
 
 #: ports/nrf/common-hal/busio/UART.c
 msgid "All UART peripherals are in use"
-msgstr "Alle UART-Peripheriegeräte sind in Benutzung"
+msgstr "قيد الاستخدام UART إن جميع الأجهزة الطرفية ذات تعرفة"
 
 #: ports/atmel-samd/common-hal/audioio/AudioOut.c
 msgid "All event channels in use"
-msgstr "Alle event Kanäle werden benutzt"
+msgstr "جميع قنوات الحدث قيد الاستخدام"
 
 #: ports/atmel-samd/audio_dma.c ports/atmel-samd/common-hal/audiobusio/PDMIn.c
 msgid "All sync event channels in use"
-msgstr "Alle sync event Kanäle werden benutzt"
+msgstr "جميع قنوات حدث المزامنة قيد الاستخدام"
 
 #: shared-bindings/pulseio/PWMOut.c
 msgid "All timers for this pin are in use"
-msgstr "Alle timer für diesen Pin werden bereits benutzt"
+msgstr "جميع أجهزة ضبط الوقت لهذا مسمار المحور قيد الاستخدام"
 
 #: ports/atmel-samd/common-hal/audioio/AudioOut.c
 #: ports/atmel-samd/common-hal/frequencyio/FrequencyIn.c
@@ -287,46 +287,47 @@ msgstr "Alle timer für diesen Pin werden bereits benutzt"
 #: ports/nrf/common-hal/pulseio/PulseOut.c shared-bindings/pulseio/PWMOut.c
 #: shared-module/_pew/PewPew.c
 msgid "All timers in use"
-msgstr "Alle timer werden benutzt"
+msgstr "جميع أجهزة ضبط الوقت قيد الاستخدام"
 
 #: ports/nrf/common-hal/_bleio/Adapter.c
 msgid "Already advertising."
-msgstr ""
+msgstr ".يتم الإعلان عن الموضوع بالفعل"
 
 #: ports/cxd56/common-hal/analogio/AnalogIn.c
 msgid "AnalogIn not supported on given pin"
-msgstr ""
+msgstr "غير معتمد على مسمار محور معين AnalogIn"
 
 #: ports/cxd56/common-hal/analogio/AnalogOut.c
 #: ports/mimxrt10xx/common-hal/analogio/AnalogOut.c
 #: ports/nrf/common-hal/analogio/AnalogOut.c
 msgid "AnalogOut functionality not supported"
-msgstr "AnalogOut-Funktion wird nicht unterstützt"
+msgstr "غير محبذة AnalogOut كيفية عمل"
 
 #: shared-bindings/analogio/AnalogOut.c
 msgid "AnalogOut is only 16 bits. Value must be less than 65536."
-msgstr "AnalogOut kann nur 16 Bit. Der Wert muss unter 65536 liegen."
+msgstr " .16 Bit يتألف فقط من AnalogOut"
+".65536 يجب أن تكون قيمة المعطى أقل من"
 
 #: ports/atmel-samd/common-hal/analogio/AnalogOut.c
 msgid "AnalogOut not supported on given pin"
-msgstr "AnalogOut ist an diesem Pin nicht unterstützt"
+msgstr "غير مدعوم على هذا المسمار المحوري AnalogOut"
 
 #: ports/atmel-samd/common-hal/pulseio/PulseOut.c
 #: ports/cxd56/common-hal/pulseio/PulseOut.c
 msgid "Another send is already active"
-msgstr "Ein anderer Sendevorgang ist schon aktiv"
+msgstr "هناك أمر إرسال آخر ناشط بالفعل"
 
 #: shared-bindings/pulseio/PulseOut.c
 msgid "Array must contain halfwords (type 'H')"
-msgstr "Array muss Halbwörter enthalten (type 'H')"
+msgstr "(type 'H') يجب أن تحتوي الصفيف على كلمات نصفية من نوع"
 
 #: shared-bindings/nvm/ByteArray.c
 msgid "Array values should be single bytes."
-msgstr "Array-Werte sollten aus Einzelbytes bestehen."
+msgstr ".يجب أن تكون قيم الصفيف بايت واحد"
 
 #: supervisor/shared/safe_mode.c
 msgid "Attempted heap allocation when MicroPython VM not running."
-msgstr ""
+msgstr ".MicroPython VM هنالك محاولة تخصيص كومة ذاكرة مؤقتة عند عدم تشغيل"
 
 #: main.c
 msgid "Auto-reload is off.\n"
