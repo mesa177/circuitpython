@@ -64,7 +64,7 @@ msgstr "%q يتم إستخدام"
 #: py/obj.c
 msgid "%q index out of range"
 msgstr " %q فهرس"
-msgstr "خارج النطاق"
+"خارج النطاق"
 #msgstr "خارج النطاق %q فهرس"
 
 #: py/obj.c
@@ -75,9 +75,9 @@ msgstr "%s يجب أن تكون من نوع الأعداد الصحيحة، و �
 #: shared-bindings/_bleio/PacketBuffer.c shared-bindings/displayio/Group.c
 #: shared-bindings/displayio/Shape.c
 msgid "%q must be >= 1"
-msgstr "%q"
-msgstr " يجب أن يكون "
-msgstr ">= 1"
+"%q"
+" يجب أن يكون "
+">= 1"
 #msgstr ">= 1 يجب أن يكون %q"
 
 #: shared-bindings/fontio/BuiltinFont.c
@@ -141,8 +141,8 @@ msgstr "%d..%d ليس في النطاق المحدد ب '%s' التابع ل %d 
 #, c-format
 msgid "'%s' integer 0x%x does not fit in mask 0x%x"
 msgstr "إن العدد الصحيح "
-msgstr "0x%x"
-msgstr "0x%x لا يمكن ادخاله في نطاق الغطاء المحدد ب '%s' التابع ل "
+"0x%x"
+"0x%x لا يمكن ادخاله في نطاق الغطاء المحدد ب '%s' التابع ل "
 #msgstr "0x%x لا يمكن ادخاله في نطاق الغطاء المحدد ب '%s' التابع ل 0x%x إن العدد الصحيح"
 
 #: py/proto.c
@@ -153,114 +153,114 @@ msgstr "'%q' لا يدعم '%s' إن الغرض التابع ل"
 #, c-format
 msgid "'%s' object does not support item assignment"
 msgstr " 's%' إن الغرض التابع ل"
-msgstr "لا يدعم التكلف بالمهمة"
+"لا يدعم التكلف بالمهمة"
 #msgstr "لا يدعم التكلف بالمهمة 's%' إن الغرض التابع ل" 
 
 #: py/obj.c
 #, c-format
 msgid "'%s' object does not support item deletion"
 msgstr " 's%' إن الغرض التابع ل"
-msgstr " لا يدعم حذف المهمة"
+" لا يدعم حذف المهمة"
 #msgstr "لا يدعم حذف المهمة 's%' إن الغرض التابع ل"
 
 #: py/runtime.c
 msgid "'%s' object has no attribute '%q'"
 msgstr "'s%' إن الغرض التابع ل"
-msgstr "'%q' لا يوجد لديه سمة "
+"'%q' لا يوجد لديه سمة "
 #msgstr "'%q' لا يوجد لديه سمة 's%' إن الغرض التابع ل"
 
 #: py/runtime.c
 #, c-format
 msgid "'%s' object is not an iterator"
 msgstr " '%s' إن الغرض التابع ل"
-msgstr "لا يتمتع بصفة مكرر"
+"لا يتمتع بصفة مكرر"
 #msgstr "لا يتمتع بصفة مكرر '%s' إن الغرض التابع ل"
 
 #: py/objtype.c py/runtime.c
 #, c-format
 msgid "'%s' object is not callable"
 msgstr "'%s' إن الغرض التابع ل"
-msgstr " لا يمكن استدعاؤه"
+" لا يمكن استدعاؤه"
 #msgstr "لا يمكن استدعاؤه '%s' إن الغرض التابع ل"
 
 #: py/runtime.c
 #, c-format
 msgid "'%s' object is not iterable"
 msgstr " '%s' إن الغرض التابع ل"
-msgstr "لا يمكن تكراره"
+"لا يمكن تكراره"
 #msgstr "لا يمكن تكراره '%s' إن الغرض التابع ل"
 
 #: py/obj.c
 #, c-format
 msgid "'%s' object is not subscriptable"
 msgstr " '%s' إن الغرض التابع ل"
-msgstr "غير قابل للنص"
+"غير قابل للنص"
 #msgstr "غير قابل للنص '%s' إن الغرض التابع ل"
 
 #: py/objstr.c
 msgid "'=' alignment not allowed in string format specifier"
-msgstr" '='"
 msgstr "المحاذاة غير مسموح بها في تحديد نوع السلسلة"
+" '='"
 #msgstr "المحاذاة غير مسموح بها في تحديد نوع السلسلة '='"
 
 #: shared-module/struct/__init__.c
 msgid "'S' and 'O' are not supported format types"
-msgstr " 'O' و 'S'"
 msgstr "غير معتمدة كأنواع للتنسيق"
+" 'O' و 'S'"
 #msgstr "غير معتمدة كأنواع للتنسيق 'O' و 'S'"
 
 #: py/compile.c
 msgid "'align' requires 1 argument"
-msgstr" 'align'"
 msgstr "يحتاج إلى معطى واحد"
+" 'align'"
 #msgstr "يحتاج إلى معطى واحد 'align'"
 
 #: py/compile.c
 msgid "'await' outside function"
-msgstr" 'await'"
 msgstr "دالة خارجية"
+" 'await'"
 #msgstr "دالة خارجية 'await'"
 
 #: py/compile.c
 msgid "'break' outside loop"
-msgstr" 'break'"
 msgstr "خارج حلقة التكرار"
+" 'break'"
 #msgstr "خارج حلقة التكرار 'break'"
 
 #: py/compile.c
 msgid "'continue' outside loop"
-msgstr" 'continue'"
 msgstr "خارج حلقة التكرار"
+" 'continue'"
 #msgstr "خارج حلقة التكرار 'continue'"
 
 #: py/compile.c
 msgid "'data' requires at least 2 arguments"
-msgstr" 'data'"
 msgstr "تحتاج على الأقل 2 معطيات"
+" 'data'"
 #msgstr "تحتاج على الأقل 2 معطيات 'data'"
 
 #: py/compile.c
 msgid "'data' requires integer arguments"
-msgstr" 'data'"
 msgstr "يحتاج لمعطيات ذات نوع أعداد صحيحة"
+" 'data'"
 #msgstr "يحتاج لمعطيات ذات نوع أعداد صحيحة 'data'"
 
 #: py/compile.c
 msgid "'label' requires 1 argument"
-msgstr" 'label'"
 msgstr "يحتاج إلى معطى واحد"
+" 'label'"
 #msgstr "يحتاج إلى معطى واحد 'label'"
 
 #: py/compile.c
 msgid "'return' outside function"
-msgstr"'return'"
 msgstr " هي دالة خارجية"
+"'return'"
 #msgstr "هي دالة خارجية 'return'"
 
 #: py/compile.c
 msgid "'yield' outside function"
-msgstr"'yield'"
 msgstr " هي دالة خارجية"
+"'yield'"
 #msgstr "هي دالة خارجية 'yield'"
 
 #: py/compile.c
@@ -274,7 +274,7 @@ msgstr " ،%q في\n"
 #: py/objcomplex.c
 msgid "0.0 to a complex power"
 msgstr "0.0"
-msgstr " إلى عدد مركب"
+" إلى عدد مركب"
 #msgstr "إلى عدد مركب 0.0"
 
 #: py/modbuiltins.c
@@ -297,20 +297,20 @@ msgstr "نوع العنوان خارج النطاق المعرف"
 
 #: ports/nrf/common-hal/busio/I2C.c
 msgid "All I2C peripherals are in use"
-msgstr " I2C إن جميع الأجهزة الطرفية ذات تعرفة"
 msgstr "قيد الاستخدام"
+" I2C إن جميع الأجهزة الطرفية ذات تعرفة"
 #msgstr "قيد الاستخدام I2C إن جميع الأجهزة الطرفية ذات تعرفة"
 
 #: ports/nrf/common-hal/busio/SPI.c
 msgid "All SPI peripherals are in use"
-msgstr " SPI إن جميع الأجهزة الطرفية ذات تعرفة"
 msgstr "قيد الاستخدام"
+" SPI إن جميع الأجهزة الطرفية ذات تعرفة"
 #msgstr "قيد الاستخدام SPI إن جميع الأجهزة الطرفية ذات تعرفة"
 
 #: ports/nrf/common-hal/busio/UART.c
 msgid "All UART peripherals are in use"
-msgstr " UART إن جميع الأجهزة الطرفية ذات تعرفة"
 msgstr "قيد الاستخدام"
+" UART إن جميع الأجهزة الطرفية ذات تعرفة"
 #msgstr "قيد الاستخدام UART إن جميع الأجهزة الطرفية ذات تعرفة"
 
 #: ports/atmel-samd/common-hal/audioio/AudioOut.c
@@ -345,28 +345,28 @@ msgstr "جميع أجهزة ضبط الوقت لهذا مسمار المحور �
 
 #: ports/cxd56/common-hal/analogio/AnalogIn.c
 msgid "AnalogIn not supported on given pin"
-msgstr "AnalogIn"
 msgstr " غير معتمد على  هذا مسمار المحور المعين"
+"AnalogIn"
 #msgstr" غير معتمد على هذا مسمار المحور المعين AnalogIn"
 
 #: ports/cxd56/common-hal/analogio/AnalogOut.c
 #: ports/mimxrt10xx/common-hal/analogio/AnalogOut.c
 #: ports/nrf/common-hal/analogio/AnalogOut.c
 msgid "AnalogOut functionality not supported"
-msgstr " AnalogOut كيفية عمل"
 msgstr "غير محبذة"
+" AnalogOut كيفية عمل"
 #msgstr "غير محبذة AnalogOut كيفية عمل"
 
 #: shared-bindings/analogio/AnalogOut.c
 msgid "AnalogOut is only 16 bits. Value must be less than 65536."
-msgstr " .16 Bit يتألف فقط من AnalogOut"
-msgstr "يجب أن تكون قيمة المعطى أقل من "
-msgstr".65536"
+msgstr ".65536"
+" يجب أن تكون قيمة المعطى أقل من"
+" .16 Bit يتألف فقط من AnalogOut"
 
 #: ports/atmel-samd/common-hal/analogio/AnalogOut.c
 msgid "AnalogOut not supported on given pin"
-mgstr "AnalogOut"
-msgstr " غير مدعوم على هذا المسمار المحوري"
+msgstr "غير مدعوم على هذا المسمار المحوري "
+"AnalogOut"
 #msgstr "غير مدعوم على هذا المسمار المحوري AnalogOut"
 
 #: ports/atmel-samd/common-hal/pulseio/PulseOut.c
@@ -395,10 +395,9 @@ msgid ""
 "Auto-reload is on. Simply save files over USB to run them or enter REPL to "
 "disable.\n"
 msgstr " USB إن إعادة التحميل التلقائي قيد التشغيل. ما عليك سوى حفظ الملفات عبر\n"
-msgstr "REPL لتشغيلها أو الدخول إلى"
-msgstr "\n"
-msgstr ".لتعطيلها"
-msgstr "\n"
+ ".لتعطيلها"
+" REPL لتشغيلها أو الدخول إلى"
+"\n"
 #msgstr " USB إن إعادة التحميل التلقائي قيد التشغيل. ما عليك سوى حفظ الملفات عبر\n"
 #msgstr ".لتعطيلها REPL لتشغيلها أو الدخول إلى\n"
 
